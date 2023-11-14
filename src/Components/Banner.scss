@@ -1,0 +1,30 @@
+.banner{
+    max-width: 1000px;
+    height: 250px;
+    border: 1px solid rgb(255, 113, 139);
+    font-size: 15px;
+    // Flexbox
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    a{
+        border: 1px solid rgb(161, 24, 241);
+        color: rgb(182, 73, 245);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 15px;
+
+        &:hover{
+            text-decoration: underline;
+            background: rgb(255, 175, 255);
+        }
+    }
+}
